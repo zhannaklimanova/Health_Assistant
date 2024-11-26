@@ -1,0 +1,5 @@
+services:
+  health:
+    build: .
+    volumes:
+      - .:/app
